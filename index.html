@@ -59,7 +59,16 @@
 
 	</head>
 	<body>
-		
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v3.0&appId=570867566598427&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 	<div class="gtco-loader"></div>
 	
 	<div id="page">
@@ -128,7 +137,9 @@
 			<div class="gtco-container">
 				<div class="row">
 					<div class="col-md-2 col-md-offset-1 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0">
+						<!--
 						<a href="https://www.facebook.com/groups/droneplay" target="_blank"><img src="images/client_1.png" alt="facebook group" class="img-responsive"></a>
+						-->
 					</div>
 					<!--
 					<div class="col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0">
@@ -154,18 +165,18 @@
 				<div class="row row-pb-md">
 					<div class="col-md-4 col-sm-4 service-wrap">
 						<div class="service">
-							<h3><i class="ti-pie-chart"></i> 무얼하는 모임일까?</h3>
+							<h3><i class="ti-pie-chart"></i> 무얼하는 모임일까요?</h3>
 							<p>그냥 드론을 좋아하는 사람들의 모임입니다. 하지만, 그냥 좋아만 하는게 아니라 이것저것을 자꾸 연구하고 실행하는 모임입니다. 드론 조종에 대해 왕초보였다면 초보를 탈출하는게 첫 목표이기도 하고 좀 더 쉽게 드론을 제어하고 싶어서 그를 위한 앱을 만들기도 합니다.</p>	</div>
 					</div>
 					<div class="col-md-4 col-sm-4 service-wrap">
 						<div class="service animate-change">
-							<h3><i class="ti-ruler-pencil"></i> 기록하고,실패하고,나누고</h3>
+							<h3><i class="ti-ruler-pencil"></i> 기록하고 실패하고 나눕니다</h3>
 							<p>시도 했던 내용들을 기록하고, 공유합니다. 실패할 수도 있고 성공할 수도 있습니다. 결과는 중요치 않습니다. 과정을 중요시 하고 과정에서 많은 것을 얻고자 합니다.</p>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4 service-wrap">
 						<div class="service">
-							<h3><i class="ti-settings"></i> 꿈을꿉니다</h3>
+							<h3><i class="ti-settings"></i> 꿈을 꿉니다</h3>
 							<p>드론을 세계일주 시킨다는 것은 지금으로서는 꿈에 가깝습니다. 기술적인 문제를 포함해서 사회적 이슈와 온갖 문제가 산재해 있습니다. 하지만, 언젠가는 이루어질 일입니다. 그것을 이 모임을 통해 이루어 보고자 합니다.</p>
 						</div>
 					</div>
@@ -175,7 +186,7 @@
 				</div>
 				<div class="row row-pb-sm">
 					<div class="col-md-8 col-md-offset-2 gtco-heading text-center">
-						<h2>드론플레이 앱 테스트 비행 영상</h2>
+						<h2>DronePlay 앱 테스트 비행 영상</h2>
 						<p>드론을 목적에 맞게 비행시킬 수 있도록 하는 드론 제어 앱을 드론 왕초보도 다룰 수 있도록 개발하고 있습니다. 언젠가 드론을 세계일주 시킬때 이 앱으로 드론을 제어하는 꿈을 꿔 봅니다.</p>
 						<p><iframe width="100%" height="315" src="https://www.youtube.com/embed/ydedrgkGtk0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 					</div>
@@ -191,52 +202,7 @@
 						<h2>둘러 보세요</h2>
 						<p>혹시, 개발자세요? 그러면 DronePlay의 페이스북 그룹이나 블로그 뿐만 아니라 개발자 페이지나 코드 페이지에 방문해 보세요</p>
 					</div>
-				</div>
-				<div class="row row-pb-md">
-					<div class="col-md-6 col-sm-6">
-						<a href="http://blog.droneplay.io" class="gtco-item two-row bg-img animate-box" style="background-image: url(images/img_1.jpg)">
-							<div class="overlay">
-								<i class="ti-arrow-top-right"></i>
-								<div class="copy">
-									<h3>DronePlay 블로그</h3>
-									<p>드론과 관련한 각종 정보들을을 기록하고 공유하는 장소입니다</p>
-								</div>
-							</div>
-							<img src="images/img_1.jpg" class="hidden" alt="Free HTML5 Website Template by GetTemplates.co">
-						</a>
-						<a href="https://www.facebook.com/groups/droneplay" class="gtco-item two-row bg-img animate-box" style="background-image: url(images/img_2.jpg)">
-							<div class="overlay">
-								<i class="ti-arrow-top-right"></i>
-								<div class="copy">
-									<h3>페이스북 그룹</h3>
-									<p>드론과 관련한 각종 소식이나 가벼운 읽을거리들을 누구나 공유할 수 있는 곳입니다</p>
-								</div>
-							</div>
-							<img src="images/img_2.jpg" class="hidden" alt="Free HTML5 Website Template by GetTemplates.co">
-						</a>
-					</div>
-					<div class="col-md-6 col-sm-6">
-						<a href="http://dev.droneplay.io" class="gtco-item two-row bg-img animate-box" style="background-image: url(images/img_md_1.jpg)">
-							<div class="overlay">
-								<i class="ti-arrow-top-right"></i>
-								<div class="copy">
-									<h3>개발자 사이트</h3>
-									<p>드론의 기능을 개선하거나 추가하고 싶다면 이곳에서 시작하세요</p>
-								</div>
-							</div>
-							<img src="images/img_md_1.jpg" class="hidden" alt="Free HTML5 Website Template by GetTemplates.co">
-						</a>
-						<a href="http://dev.droneplay.io/dev/register" class="gtco-item two-row bg-img animate-box" style="background-image: url(images/img_md_1.jpg)">
-							<div class="overlay">
-								<i class="ti-arrow-top-right"></i>
-								<div class="copy">
-									<h3>개발자 등록</h3>
-									<p>개발자들이 좀 더 편하게 개발을 할 수 있도록 DronePlay에서 OPEN API를 제공합니다. 개발자 등록을 하신후 쉽고 간편한 OPEN API를 사용해 보세요</p>
-								</div>
-							</div>
-							<img src="images/img_md_1.jpg" class="hidden" alt="Free HTML5 Website Template by GetTemplates.co">
-						</a>
-					</div>
+						<div class="fb-page" data-href="https://www.facebook.com/DronePlayPage/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/DronePlayPage/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/DronePlayPage/">DronePlay</a></blockquote></div>
 				</div>
 			</div>
 		</div>
